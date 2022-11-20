@@ -46,22 +46,41 @@ img{
 .information{
     position:absolute;
     left:0;
-    bottom:10%;
+    top:5%;
     width:100%;
     padding: 15px;
     text-align: left;
     color:#fff;
-    font-size: 18px;
+    /* opacity: 0; */
+    /* transform: translateY(30px); */
+    /* font-size: 18px;
+    transition: all 0.3s ease-out 0.2s; */
+}
+
+.information h2{
+    font-size: 28px;
+    transition: all 0.3s ease-out 0.2s;
     transform: translateY(30px);
     opacity: 0;
-    transition: all 0.3s ease-out 0.2s;
 }
 
-
-.Box1:hover .information{
-    transform: translateY(0);
+.Box1:hover .information h2{
+    transform: translateY(0px);
     opacity: 1;
 }
+
+.information p{
+    font-size: 28px;
+    transition: all 0.3s ease-out 0.5s;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.Box1:hover .information p{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 
 
 .Box2{
