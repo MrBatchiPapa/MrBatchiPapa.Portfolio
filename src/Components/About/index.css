@@ -17,7 +17,12 @@
     min-height: 100vh;
 }
 
+.aboutBody img{
+    display:block;
+    width:300px;
+}
 
+/* 
 .aboutBody h2 {
     color: black;
     margin-left: 10vh;
@@ -35,4 +40,4 @@
     font-size: 1.5rem;
     font-weight: 350;    
     margin-top: auto;
-}
+} */
