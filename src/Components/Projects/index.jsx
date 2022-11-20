@@ -15,8 +15,11 @@ const Projects = () => {
         <div className='ProjectContainer'>
             <h1>Here are my projects</h1>
             <div data-aos="fade-up" className='Box1'>
-                    <h2>Project 1</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur malesuada risus, in sodales velit mollis id. Maecenas sit amet faucibus tellus. Nullam a ligula et mauris maximus ornare fringilla non felis. Donec congue suscipit ex, id finibus diam. Nullam tincidunt elit non ex vulputate laoreet. Mauris cursus cursus ante blandit accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed dapibus urna.</h3>
+                <img src={require('../../Assets/quickDraw.jpg')} />
+                <div className="information">
+                    <h2 class="projectTitle">Quick Draw</h2>
+                    <p class="projectBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur malesuada risus, in sodales velit mollis id. Maecenas sit amet faucibus tellus. Nullam a ligula et mauris maximus ornare fringilla non felis. Donec congue suscipit ex, id finibus diam. Nullam tincidunt elit non ex vulputate laoreet. Mauris cursus cursus ante blandit accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed dapibus urna.</p>
+                </div>
             </div>
 
             <div data-aos="fade-up" className='Box2'>
