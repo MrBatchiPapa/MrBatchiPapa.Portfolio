@@ -1,0 +1,63 @@
+.ProjectContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.grids{
+    max-width: 75%;
+    margin:auto;
+}
+
+
+.Box1 {
+    height: 75vh;
+    width: 180vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    overflow: hidden;
+    background-color: #75afe8;
+    background-size: cover;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.Box2{
+    height: 75vh;
+    width: 180vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    overflow: hidden;
+    background-color: #7393B3;
+    background-size: cover;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ProjectContainer h2 {
+    color: black;
+    margin: 10vh;
+    font-size: 3.5rem;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.ProjectContainer h3 {
+    margin: 10vh;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 350;
+    margin-top: auto;
+}
+
+.Box1:hover > .box1Front{
+    transform: perspective(600px) rotateX(-180deg);
+}
+
+.Box1:hover > .box1Back{
+    transform: perspective(600px) rotateX(0deg);
+}

@@ -1,0 +1,38 @@
+.aboutBody {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+
+.aboutBox{
+    background-color: #6082B6;
+    min-height: 100vh;
+    max-width: 90vh;
+}
+
+.skillsBox{
+    background-color: #6F8FAF;
+    min-height: 100vh;
+}
+
+
+.aboutBody h2 {
+    color: black;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 3.5rem;
+    font-weight: bold;
+    width:100%;
+    margin-bottom: auto;
+}
+
+.aboutBody h3{
+    padding-top: 30px;
+    margin:10vh;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 350;    
+    margin-top: auto;
+}
