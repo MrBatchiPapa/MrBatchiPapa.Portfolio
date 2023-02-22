@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './index.css'
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { FaJava, FaJs, FaReact, FaPython, FaHtml5, FaCss3Alt, FaAndroid, FaGit } from 'react-icons/fa'
+import { FaJava, FaJs, FaReact, FaPython, FaHtml5, FaCss3Alt, FaAndroid, FaGit, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const About = () => {
 
@@ -19,8 +19,11 @@ const About = () => {
                 <div className='aboutText'>
                     <h1>A bit about myself</h1>
                     <br />
-                    <h3>I am a student at the University Of Auckland, beginning my third year of studies as a software engineer and aspiring to be a full stack developer. I find interest in machine learning and overcoming problems with a well engineered thought process.  </h3>
-
+                    <h3>I am a student at the University Of Auckland, beginning my third year of studies as a software engineer and aspiring to be a full stack developer. <br /><br />I find interest in machine learning and overcoming problems with a well engineered thought process.  </h3>
+                    <div className='info'>
+                        <FaLinkedin className="icons1 Linkedin" />
+                        <FaGithub className="icons1 Github" />
+                    </div>
                 </div>
 
             </div>

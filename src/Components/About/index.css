@@ -12,7 +12,6 @@
     min-width: 90vh;
     max-width: 90vh;
     text-align: right;
-   
 }
 
 .aboutText{
@@ -44,12 +43,25 @@
 }
 
 .icons{
-    height:60px;
-    width:75px;
+    height:70px;
+    width:100px;
 }
+
+.icons1{
+    height:20px;
+    width:35px;
+}
+
 .stack{
     display:flex;
     justify-content: center;
     align-items: center;
     height:35vh;
+}
+
+.info{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    height:10vh;
 }
