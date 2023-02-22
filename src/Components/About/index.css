@@ -7,14 +7,35 @@
 }
 
 .aboutBox{
-    background-color: #6082B6;
-    min-height: 100vh;
+    background-color: #213A5C;
+    min-height: 800px;
+    min-width: 90vh;
     max-width: 90vh;
+    text-align: right;
+   
+}
+
+.aboutText{
+    margin: 10%;
+    color:#8caac8;
+}
+.skillsText{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:#213A5C;
+}
+
+.pfp{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .skillsBox{
     background-color: #6F8FAF;
-    min-height: 100vh;
+    min-height: 800px;
+    text-align:left;
 }
 
 .aboutBody img{
@@ -22,22 +43,13 @@
     width:300px;
 }
 
-/* 
-.aboutBody h2 {
-    color: black;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    font-size: 3.5rem;
-    font-weight: bold;
-    width:100%;
-    margin-bottom: auto;
+.icons{
+    height:60px;
+    width:75px;
 }
-
-.aboutBody h3{
-    padding-top: 30px;
-    margin:10vh;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 350;    
-    margin-top: auto;
-} */
+.stack{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:35vh;
+}
