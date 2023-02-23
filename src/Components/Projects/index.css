@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 20vh;
 }
 
 .grids{
@@ -24,10 +25,14 @@ img{
     object-fit:cover;
 }
 
+h1{
+    
+}
+
 .Box1 {
     height: 90vh;
     width: 180vh;
-    margin: auto;
+    margin-top: 10vh;
     margin-bottom: 10vh;
     overflow: hidden;
     background:radial-gradient(#111 50%, #000 100%);
