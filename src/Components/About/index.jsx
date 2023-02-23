@@ -3,13 +3,14 @@ import './index.css'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import CountUp from 'react-countup';
+import { useInView } from 'react-intersection-observer';
 import { FaJava, FaJs, FaReact, FaPython, FaHtml5, FaCss3Alt, FaAndroid, FaGit, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 
 const About = () => {
 
-    // const [ref, inView] = useInView({
-    //     threshold: 0.5,
-    // });
+    const [ref, inView] = useInView({
+        threshold: 0.5,
+    });
 
     useEffect(() => {
         Aos.init({ duration: 500 });
@@ -51,9 +52,11 @@ const About = () => {
                     <h1>My experience</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur malesuada risus, in sodales velit mollis id. Maecenas sit amet faucibus tellus. Nullam a ligula et mauris maximus ornare fringilla non felis. Donec congue suscipit ex, id finibus diam. Nullam tincidunt elit non ex vulputate laoreet. Mauris cursus cursus ante blandit accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed dapibus urna.</h3>
 
-                    {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                        {inView ? <CountUp start={0} end={3} duration={2} /> : null}
-                    </div> */}
+                    <div ref={ref}>
+                        <h2>{inView ? <CountUp start={0} end={3} duration={2} /> : null} <br />Years of experience</h2>
+                        <h2>{inView ? <CountUp start={0} end={334} duration={2} /> : null} <br />Commits on github</h2>
+                    </div>
+
                 </div>
             </div>
 
