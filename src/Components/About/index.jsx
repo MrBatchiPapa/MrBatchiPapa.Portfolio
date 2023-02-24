@@ -52,10 +52,15 @@ const About = () => {
                     <h1>My experience</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur malesuada risus, in sodales velit mollis id. Maecenas sit amet faucibus tellus. Nullam a ligula et mauris maximus ornare fringilla non felis. Donec congue suscipit ex, id finibus diam. Nullam tincidunt elit non ex vulputate laoreet. Mauris cursus cursus ante blandit accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed dapibus urna.</h3>
 
+
                     <div ref={ref}>
-                        <h2>{inView ? <CountUp start={0} end={3} duration={2} /> : null} <br />Years of experience</h2>
-                        <h2>{inView ? <CountUp start={0} end={334} duration={2} /> : null} <br />Commits on github</h2>
+                        <div className='stats'>
+                            <div className='experience'><h1>{inView ? <CountUp start={0} end={3} duration={2} /> : null}</h1> <br /> <h3>Years of experience</h3></div>
+                            <div className='commits'><h1>{inView ? <CountUp start={0} end={334} duration={2} /> : null}</h1> <br /><h3>Commits on github</h3></div>
+                            <div className='offers'><h1>{inView ? <CountUp start={0} end={0} duration={2} /> : null}</h1> <br /> <h3>Offers from Atlassian :(</h3></div>
+                        </div>
                     </div>
+
 
                 </div>
             </div>

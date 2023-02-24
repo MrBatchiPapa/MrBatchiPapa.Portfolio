@@ -6,7 +6,7 @@
     margin-bottom: 10vh;
 }
 
-.aboutBox{
+.aboutBox {
     background-color: #213A5C;
     min-height: 800px;
     min-width: 90vh;
@@ -14,55 +14,72 @@
     text-align: right;
 }
 
-.aboutText{
+.aboutText {
     margin: 10%;
-    color:#8caac8;
+    color: #8caac8;
 }
-.skillsText{
+
+.skillsText {
     margin-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
-    color:#213A5C;
+    color: #213A5C;
 }
 
-.pfp{
+.pfp {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.skillsBox{
+.skillsBox {
     background-color: #6F8FAF;
     min-height: 800px;
-    text-align:left;
+    text-align: left;
 }
 
-.aboutBody img{
-    display:block;
-    width:300px;
+.aboutBody img {
+    display: block;
+    width: 300px;
 }
 
-.icons{
-    height:70px;
-    width:100px;
+.icons {
+    height: 70px;
+    width: 100px;
 }
 
-.icons1{
-    height:20px;
-    width:35px;
+.icons1 {
+    height: 20px;
+    width: 35px;
 }
 
-.stack{
-    display:flex;
+.stack {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height:35vh;
+    height: 35vh;
 }
 
-.info{
-    display:flex;
+.info {
+    display: flex;
     justify-content: right;
     align-items: center;
-    height:10vh;
+    height: 10vh;
 }
 
+.stats {
+    margin-top: 50px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats h1{
+    color: white;
+    size: 40px;
+}
+
+.stats h3{
+    color:#213A5C;
+}
