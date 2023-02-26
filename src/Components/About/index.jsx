@@ -66,7 +66,7 @@ const About = () => {
                         <div className='stats'>
                             <div className='experience'><h1>{inView ? <CountUp start={0} end={3} duration={2} /> : null}</h1> <br /> <h3>Years of <br />experience</h3></div>
                             <div className='commits'><h1>{inView ? <CountUp start={0} end={334} duration={2} /> : null}</h1> <br /><h3>Commits on <br />github</h3></div>
-                            <div className='offers'><h1>{inView ? <CountUp start={0} end={0} duration={2} /> : null}</h1> <br /> <h3>Offers from<br /> Atlassian :(</h3></div>
+                            <div className='offers'><h1>{inView ? <CountUp start={0} end={0} duration={2} /> : null}</h1> <br /> <h3>Offers from<br /> Google :(</h3></div>
                         </div>
                     </div>
 

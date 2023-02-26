@@ -1,64 +1,119 @@
-.contactBody{
-    min-height: 500px;
-    flex-direction:column ;
-    display:flex;
+.contactBody {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    /* background-color:#ADD8E6; */
-    background-color:white;
-}
-
-.contact{
-    height:80vh;
-    display:flex;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 30px 0;
+  }
+  
+  .contact {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .contactBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    background-image: url('../../Assets/contact-img.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .contactText {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .contactDetails {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .emailBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-
-textarea{
+    padding: 50px;
+  }
+  
+  .messageText {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
     resize: none;
-}
-
-
-.contactBox {
-    height:400px;
-    width:400px;
+  }
+  
+  input[type='submit'] {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #555555;
+  }
+  
+  .successMsg,
+  .errorMsg {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
     text-align: center;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-color: #6F8FAF;
-    overflow:hidden;
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
-}
-
-
-.emailBox {
-    height:400px;
-    width:400px;
-    text-align: center;
-    box-shadow: 30px 20px 50px rgba(0,0,0,0.5);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: rgba(255,255,255,0.1);
-    overflow:hidden;
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
-    /* display:flex;
-    flex-direction: column; */
-}
-
-.messageText{
-    font-size:2em;
-    margin:5%;
-    color:black;
-}
-
-.contactText{
-    font-size:2em;
-    margin:5%;
-    color:white;
-}
+  }
+  
+  .successMsg {
+    color: green;
+  }
+  
+  .errorMsg {
+    color: red;
+  }
+  
