@@ -32,17 +32,17 @@ const Contact = () => {
 
             <div className='contact'>
                 <div data-aos="fade-left" className='contactBox'>
-
-                    <div className='aboutText'>
-                        <h1>A bit about myself</h1>
-                        <br />
-                        <h3>I am a student at the University Of Auckland, beginning my third year of studies as a software engineer and aspiring to be a full stack developer. I love to keep myself active with sports like badminton, table tennis, kickboxing or simply just gaming. <br /><br />To me the most important part of a company is its work environment, as I believe a close knit and trusting team is a successful one.  </h3>
-
+                    <div className='contactText'>
+                        Contact me 
                     </div>
+
 
                 </div>
 
                 <div data-aos="fade-right" className='emailBox'>
+                    <div className='messageText'>
+                        Or send me a message
+                    </div>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='emailName'>
                             <label>Name</label>

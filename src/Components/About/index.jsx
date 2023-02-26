@@ -27,9 +27,18 @@ const About = () => {
                     <br />
                     <h3>I am a student at the University Of Auckland, beginning my third year of studies as a software engineer and aspiring to be a full stack developer. I love to keep myself active with sports like badminton, table tennis, kickboxing or simply just gaming. <br /><br />To me the most important part of a company is its work environment, as I believe a close knit and trusting team is a successful one.  </h3>
                     <div className='info'>
-                        <FaLinkedin className="icons1 Linkedin" />
-                        <FaGithub className="icons1 Github" />
-                        <FaInstagram className="icons1 Instagram" />
+                        <a href="https://www.linkedin.com/in/kevin-jin-055037233/">
+                            <FaLinkedin className="icons1 Linkedin" />
+                        </a>
+
+                        <a href="https://github.com/MrBatchiPapa">
+                            <FaGithub className="icons1 Github" />
+                        </a>
+
+                        <a href="https://www.instagram.com/kebinjin/">
+                            <FaInstagram className="icons1 Instagram" />
+                        </a>
+
                     </div>
                 </div>
 
@@ -50,14 +59,14 @@ const About = () => {
                     </div>
 
                     <h1>My experience</h1>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur malesuada risus, in sodales velit mollis id. Maecenas sit amet faucibus tellus. Nullam a ligula et mauris maximus ornare fringilla non felis. Donec congue suscipit ex, id finibus diam. Nullam tincidunt elit non ex vulputate laoreet. Mauris cursus cursus ante blandit accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sed dapibus urna.</h3>
+                    <h3>During my first year of study I learnt how to use MATLAB and C. During my second year of study, I primarily did all coding and programming in Java making it my most proficient language. As such I am also familiar with object oriented programming. <br /><br />I have developed multiple web apps throughout my time at high school and University using HTML, CSS along with JavaScript (mostly React.js).<br /><br />  During my internship and OPPO I ran Python test scripts using Android Debugging Bridge to test mobile devices and have learnt how to write my own scripts.</h3>
 
 
                     <div ref={ref}>
                         <div className='stats'>
-                            <div className='experience'><h1>{inView ? <CountUp start={0} end={3} duration={2} /> : null}</h1> <br /> <h3>Years of experience</h3></div>
-                            <div className='commits'><h1>{inView ? <CountUp start={0} end={334} duration={2} /> : null}</h1> <br /><h3>Commits on github</h3></div>
-                            <div className='offers'><h1>{inView ? <CountUp start={0} end={0} duration={2} /> : null}</h1> <br /> <h3>Offers from Atlassian :(</h3></div>
+                            <div className='experience'><h1>{inView ? <CountUp start={0} end={3} duration={2} /> : null}</h1> <br /> <h3>Years of <br />experience</h3></div>
+                            <div className='commits'><h1>{inView ? <CountUp start={0} end={334} duration={2} /> : null}</h1> <br /><h3>Commits on <br />github</h3></div>
+                            <div className='offers'><h1>{inView ? <CountUp start={0} end={0} duration={2} /> : null}</h1> <br /> <h3>Offers from<br /> Atlassian :(</h3></div>
                         </div>
                     </div>
 
