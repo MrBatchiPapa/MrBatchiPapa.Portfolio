@@ -23,7 +23,7 @@ const Hero = () => {
                     cursor={true}
                     repeat={Infinity}
                 />
-                {/* Hey there, I'm <span class="name">Kevin Jin.</span> I am an aspiring Software developer based in Auckland New Zealand */}
+                
             </div>
         </section>
 
